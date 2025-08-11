@@ -1,6 +1,6 @@
 package ru.practicum;
 
-public class Square extends TwoDimensionalGeometricShape {
+public class Square extends GeometricShape {
     private final double a;
     private final double b;
 

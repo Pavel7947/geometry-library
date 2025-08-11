@@ -1,6 +1,6 @@
 package ru.practicum;
 
-public class Round extends TwoDimensionalGeometricShape {
+public class Round extends GeometricShape {
     private final double d;
 
     public Round(double d) {

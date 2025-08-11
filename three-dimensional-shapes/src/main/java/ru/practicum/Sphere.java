@@ -1,10 +1,10 @@
 package ru.practicum;
 
-public class Sphere extends ThreeDimensionalGeometricShare {
+public class Sphere extends GeometricShape {
     private final double d;
 
     public Sphere(double d) {
-        super("Sphere");
+        super("SPHERE");
         this.d = d;
     }
 

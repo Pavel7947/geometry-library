@@ -1,6 +1,6 @@
 package ru.practicum;
 
-public class Triangle extends TwoDimensionalGeometricShape {
+public class Triangle extends GeometricShape {
     private final double a;
     private final double b;
     private final double c;

@@ -1,11 +1,11 @@
 package ru.practicum;
 
-public class Cube extends ThreeDimensionalGeometricShare{
+public class Cube extends GeometricShape {
     private final double a;
 
 
     public Cube(double a) {
-        super("Cube");
+        super("CUBE");
         this.a = a;
     }
 
